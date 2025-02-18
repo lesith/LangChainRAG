@@ -27,3 +27,12 @@ Specifically, we will have
 4. Final response as a AIMessage.
 
 Detailed Documentation: https://python.langchain.com/docs/tutorials/qa_chat_history/
+
+## Using Agents
+
+Agents leverage the reasoning capabilities of LLMs to make decisions during execution. 
+Using agents allows you to offload additional discretion over the retrieval process. 
+Although their behavior is less predictable than the above "chain", 
+they are able to execute multiple retrieval steps in service of a query, or iterate on a single search.
+
+Detailed Documentation: https://python.langchain.com/docs/tutorials/qa_chat_history/#agents
